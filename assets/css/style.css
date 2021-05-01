@@ -1,7 +1,7 @@
 /* Utility */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html {font-size: 112.5%;} /*18px*/
+html {font-size: 87.5%;} /*14px*/
 
 * {
     margin: 0;
@@ -17,12 +17,13 @@ body {
   color: #333333;
 }
 
-p {margin-bottom: 1rem;}
+p {margin-bottom: 1rem; color: #666;}
 
 h1, h2, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.3;
+  color: #333333;
 }
 
 h1 {
@@ -92,12 +93,111 @@ small, .text_small {font-size: 0.8rem;}
 }
 /* End of Navbar */
 
+/* Jumbotron */
+.jumbo-container {
+    padding: 0;
+    padding-bottom: 48px;
+    border-radius: 0 0 50px 50px; 
+}
+
+#jumbotron {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: auto !important;
+}
+
+.jumbo-text {
+    flex: 100%;
+    width: 100%;
+}
+.jumbo-text h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.jumbo-img {
+    flex: 100%;
+    width: 100%;
+}
+.jumbo-img img {
+    width: 100% !important;
+}
+/* End of Jumbotron */
+
 @media (min-width: 992px) { 
+
+    /* Utility */
+    html {font-size: 112.5%;} /*18px*/
+
+    body {
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #333333;
+    }
+
+    p {margin-bottom: 1rem;}
+
+    h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    }
+
+    h1 {
+    margin-top: 0;
+    font-size: 3.052rem;
+    }
+
+    h2 {font-size: 2.441rem;}
+
+    h3 {font-size: 1.953rem;}
+
+    h4 {font-size: 1.563rem;}
+
+    h5 {font-size: 1.25rem;}
+
+    small, .text_small {font-size: 0.8rem;}
+    /* End of Utility */
 
     /* Navbar */
     .navbar-nav a {
         margin-left: 24px;
     }
     /* End of Navbar */
+
+    /* Jumbotron */
+    .jumbo-container {
+        padding: 24px 0;
+        border-radius: 0 0 100px 100px; 
+    }
+
+    #jumbotron {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: auto !important;
+    }
+
+    .jumbo-text {
+        flex: 50%;
+        width: 50%;
+    }
+    .jumbo-text h1 {
+        font-size: 3.052rem;
+    }
+
+    .jumbo-img {
+        flex: 50%;
+        width: 50%;
+    }
+    .jumbo-img img {
+        width: auto;
+    }
+    /* End of Jumbotron */
     
  }
