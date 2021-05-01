@@ -1,7 +1,7 @@
 /* Utility */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html {font-size: 87.5%;} /*14px*/
+html {font-size: 87.5%; scroll-behavior: smooth;} /*14px*/
 
 * {
     margin: 0;
@@ -14,14 +14,14 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  color: #333333;
+  color: #888;
 }
 
-p {margin-bottom: 1rem; color: #666;}
+p {margin-bottom: 1rem; color: #888;}
 
 h1, h2, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.3;
   color: #333333;
 }
@@ -79,6 +79,20 @@ small, .text_small {font-size: 0.8rem;}
 .blackSmoothShadow {
     box-shadow: 0px 38px 130px rgba(51, 51, 51, 0.07), 0px 15.8755px 54.3109px rgba(51, 51, 51, 0.0503198), 0px 8.4878px 29.0372px rgba(51, 51, 51, 0.0417275), 0px 4.75819px 16.278px rgba(51, 51, 51, 0.035), 0px 2.52704px 8.64513px rgba(51, 51, 51, 0.0282725), 0px 1.05156px 3.59743px rgba(51, 51, 51, 0.0196802);
 }
+
+.marginTop {
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.card {
+    border-radius: 25px;
+}
+.card:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 38px 130px rgba(51, 51, 51, 0.07), 0px 15.8755px 54.3109px rgba(51, 51, 51, 0.0503198), 0px 8.4878px 29.0372px rgba(51, 51, 51, 0.0417275), 0px 4.75819px 16.278px rgba(51, 51, 51, 0.035), 0px 2.52704px 8.64513px rgba(51, 51, 51, 0.0282725), 0px 1.05156px 3.59743px rgba(51, 51, 51, 0.0196802);
+}
 /* End of Utility */
 
 /* Navbar */
@@ -96,7 +110,7 @@ small, .text_small {font-size: 0.8rem;}
 /* Jumbotron */
 .jumbo-container {
     padding: 0;
-    padding-bottom: 48px;
+    padding-bottom: 28px;
     border-radius: 0 0 50px 50px; 
 }
 
@@ -115,6 +129,10 @@ small, .text_small {font-size: 0.8rem;}
 .jumbo-text h1 {
     font-size: 26px;
     font-weight: 700;
+}
+.jumbo-text a {
+    width: 48%;
+    margin-left: 0 !important;
 }
 
 .jumbo-img {
@@ -136,14 +154,13 @@ small, .text_small {font-size: 0.8rem;}
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 1.75;
-    color: #333333;
     }
 
     p {margin-bottom: 1rem;}
 
     h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.3;
     }
 
@@ -161,6 +178,10 @@ small, .text_small {font-size: 0.8rem;}
     h5 {font-size: 1.25rem;}
 
     small, .text_small {font-size: 0.8rem;}
+
+    .marginTop {
+        margin-top: 140px;
+    }
     /* End of Utility */
 
     /* Navbar */
@@ -172,6 +193,7 @@ small, .text_small {font-size: 0.8rem;}
     /* Jumbotron */
     .jumbo-container {
         padding: 24px 0;
+        padding-bottom: 86px;
         border-radius: 0 0 100px 100px; 
     }
 
@@ -199,5 +221,11 @@ small, .text_small {font-size: 0.8rem;}
         width: auto;
     }
     /* End of Jumbotron */
+
+    /* Services */
+    #services .card {
+        min-height: 320px;
+    }
+    /* End of Services */
     
  }
