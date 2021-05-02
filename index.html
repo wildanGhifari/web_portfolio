@@ -17,28 +17,27 @@
 
 <body>
 
-    <header>
+    <header class="sticky-top">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <div class="container-xl">
-                <a class="navbar-brand" href="#">WILD</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-link" href="#projects">Projects</a>
-                        <a class="nav-link" href="#services">Services</a>
-                        <a class="nav-link" href="#">Blog</a>
-                        <a class="nav-link" href="#">Resources</a>
-                        <a class="btn buttonPrimary" href="#">Contact</a>
-                    </div>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">WILD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">Resources</a>
                 </div>
             </div>
         </nav>
         <!-- End of Navbar -->
+    </header>
 
+    <main>
         <!-- Jumbotron -->
         <div class="container-fluid bg-light jumbo-container">
             <div id="jumbotron" class="container-xl">
@@ -60,9 +59,7 @@
             </div>
         </div>
         <!-- End of Jumbotron -->
-    </header>
 
-    <main>
         <!-- Services -->
         <div id="services" class="container-xl marginTop">
             <div class="row text-center">

@@ -100,10 +100,15 @@ small, .text_small {font-size: 0.8rem;}
 /* End of Utility */
 
 /* Navbar */
+#navbar {
+    display: none;
+}
+
 .navbar-brand {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 900;
     color: #FFD856 !important;
+    padding: 0;
 }
 
 .navbar-nav a {
@@ -124,6 +129,7 @@ small, .text_small {font-size: 0.8rem;}
     align-items: center;
     justify-content: space-between;
     width: auto !important;
+    padding-top: 48px;
 }
 
 .jumbo-text {
@@ -293,7 +299,12 @@ footer {
     /* End of Utility */
 
     /* Navbar */
+    #navbar {
+        display: flex;
+    }
+
     .navbar-nav a {
+        margin-top: 0;
         margin-left: 24px;
     }
     /* End of Navbar */
@@ -311,6 +322,7 @@ footer {
         align-items: center;
         justify-content: space-between;
         width: auto !important;
+        padding-top: 24px;
     }
 
     .jumbo-text {
