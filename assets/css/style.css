@@ -153,6 +153,51 @@ small, .text_small {font-size: 0.8rem;}
 }
 /* End of Services */
 
+/* Projects */
+.project {
+    margin-top: 48px;
+    min-height: 320px;
+    border-radius: 25px;
+    border: 1px solid #888;
+}
+.project:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0px 38px 130px rgba(51, 51, 51, 0.07), 0px 15.8755px 54.3109px rgba(51, 51, 51, 0.0503198), 0px 8.4878px 29.0372px rgba(51, 51, 51, 0.0417275), 0px 4.75819px 16.278px rgba(51, 51, 51, 0.035), 0px 2.52704px 8.64513px rgba(51, 51, 51, 0.0282725), 0px 1.05156px 3.59743px rgba(51, 51, 51, 0.0196802);
+}
+/* End of Projects */
+
+/* CTA */
+    #CTA {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        text-align: center;
+    }
+
+    #CTA h4 {
+        margin: 0 52px;
+        margin-bottom: 24px;
+    }
+
+    .CTAButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .CTAButton a {
+        flex: 50% !important;
+        width: 50% !important;
+        margin-left: 24px;
+    }
+/* CTA */
+
 @media (min-width: 992px) { 
 
     /* Utility */
@@ -259,5 +304,17 @@ small, .text_small {font-size: 0.8rem;}
         box-shadow: 0px 38px 130px rgba(51, 51, 51, 0.07), 0px 15.8755px 54.3109px rgba(51, 51, 51, 0.0503198), 0px 8.4878px 29.0372px rgba(51, 51, 51, 0.0417275), 0px 4.75819px 16.278px rgba(51, 51, 51, 0.035), 0px 2.52704px 8.64513px rgba(51, 51, 51, 0.0282725), 0px 1.05156px 3.59743px rgba(51, 51, 51, 0.0196802);
     }
     /* End of Projects */
+
+    /* CTA */
+        #CTA {
+            flex-direction: row;
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+
+        #CTA h4 {
+            margin: unset;
+        }
+    /* CTA */
     
  }
