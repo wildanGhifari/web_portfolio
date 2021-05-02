@@ -144,6 +144,21 @@ small, .text_small {font-size: 0.8rem;}
 }
 /* End of Jumbotron */
 
+/* Services */
+#services .card {
+    margin-top: 72px;
+}
+#services .card-body .text {
+    position: relative;
+    margin-top: -100px;
+}
+#services .card img{
+    position: relative;
+        margin-top: -36%;
+        width: 100%;
+}
+/* End of Services */
+
 @media (min-width: 992px) { 
 
     /* Utility */
@@ -224,7 +239,19 @@ small, .text_small {font-size: 0.8rem;}
 
     /* Services */
     #services .card {
-        min-height: 320px;
+        min-height: 400px;
+        margin-top: 56px;
+    }
+
+    #services .card-body .text {
+        position: relative;
+        margin-top: -100px;
+    }
+
+    #services .card img{
+        position: relative;
+        margin-top: -36%;
+        width: 100%;
     }
     /* End of Services */
     
