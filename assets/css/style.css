@@ -97,6 +97,27 @@ small, .text_small {font-size: 0.8rem;}
 .bg-light {
     background-color: #F2F2F2 !important;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background-color: #F2F2F2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #FFD856; 
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #fdc302; 
+}
 /* End of Utility */
 
 /* Navbar */
@@ -262,9 +283,15 @@ footer {
     color: #fdc302;
 }
 
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-link a {
+    text-align: center;
     font-size: 36px;
-    margin-right: 36px;
+    margin: auto;
     color: #333333;
 }
 .footer-link a:hover {
@@ -277,6 +304,7 @@ footer {
 }
 #footer .footer-img img{
     width: 100%;
+    margin-top: 48px;
 }
 /* End of Footer */
 
@@ -425,6 +453,10 @@ footer {
         font-size: 3.052rem;
     }
 
+    .footer-link {
+        display: inline-block;
+    }
+
     .footer-link a {
         font-size: 48px;
         margin-right: 48px;
@@ -436,6 +468,7 @@ footer {
     }
     #footer .footer-img img{
         width: 100%;
+        margin-top: 0;
     }
     /* End of Footer */
  }
