@@ -155,11 +155,18 @@ small, .text_small {font-size: 0.8rem;}
 /* End of Jumbotron */
 
 /* Services */
+#services .card {
+    border: none;
+}
+
 #services .card-body .text {
     margin-top: -100px;
+    text-align: center;
 }
 #services .card img{
+    margin-top: -80px;
     width: 100%;
+    height: 50% !important;
 }
 /* End of Services */
 
@@ -343,12 +350,8 @@ footer {
     /* End of Jumbotron */
 
     /* Services */
-    #services .card {
-        min-height: 500px;
-    }
-
     #services .card-body .text {
-        margin-top: -100px;
+        margin-top: -80px;
     }
 
     #services .card img{
