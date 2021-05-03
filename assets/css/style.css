@@ -100,10 +100,6 @@ small, .text_small {font-size: 0.8rem;}
 /* End of Utility */
 
 /* Navbar */
-#navbar {
-    display: none;
-}
-
 .navbar-brand {
     font-size: 36px;
     font-weight: 900;
@@ -113,6 +109,9 @@ small, .text_small {font-size: 0.8rem;}
 
 .navbar-nav a {
     margin-top: 16px;
+}
+.navbar-nav a:hover {
+    font-weight: 600;
 }
 /* End of Navbar */
 
@@ -322,10 +321,6 @@ footer {
     /* End of Utility */
 
     /* Navbar */
-    #navbar {
-        display: flex;
-    }
-
     .navbar-nav a {
         margin-top: 0;
         margin-left: 24px;
