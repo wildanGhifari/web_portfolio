@@ -191,17 +191,49 @@ background: #fdc302;
 /* End of Services */
 
 /* Projects */
-.project {
-    margin-top: 48px;
-    min-height: 320px;
-    border-radius: 25px;
-    border: 1px solid #888;
+.project-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
 }
-.project:hover {
-    transition: 0.3s;
-    cursor: pointer;
+
+.project-col {
+    flex: 100%;
+    width: 100%;
+}
+
+.project-desc {
+    padding: 16px 0;
+}
+.project-desc span{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.project-desc p{
+    margin-top: 12px;
+}
+
+.project-desc .links a {
+    margin-right: 24px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+}
+.project-desc .links a:hover {
+    text-decoration: underline;
+}
+
+.project-img {
+    min-height: 240px;
+    background-color: #F2F2F2;
     border-radius: 25px;
-    box-shadow: 0px 38px 130px rgba(51, 51, 51, 0.07), 0px 15.8755px 54.3109px rgba(51, 51, 51, 0.0503198), 0px 8.4878px 29.0372px rgba(51, 51, 51, 0.0417275), 0px 4.75819px 16.278px rgba(51, 51, 51, 0.035), 0px 2.52704px 8.64513px rgba(51, 51, 51, 0.0282725), 0px 1.05156px 3.59743px rgba(51, 51, 51, 0.0196802);
+}
+
+
+#project2 .project-img {
+    order: unset;
 }
 /* End of Projects */
 
@@ -399,17 +431,31 @@ footer {
     /* End of Services */
 
     /* Projects */
-    .project {
-        margin-top: 48px;
-        min-height: 320px;
-        border-radius: 25px;
-        border: 1px solid #888;
+    .project-row {
+        flex-direction: row;
+        margin-top: 64px;
     }
-    .project:hover {
-        transition: 0.3s;
-        cursor: pointer;
-        border-radius: 25px;
-        box-shadow: 0px 38px 130px rgba(51, 51, 51, 0.07), 0px 15.8755px 54.3109px rgba(51, 51, 51, 0.0503198), 0px 8.4878px 29.0372px rgba(51, 51, 51, 0.0417275), 0px 4.75819px 16.278px rgba(51, 51, 51, 0.035), 0px 2.52704px 8.64513px rgba(51, 51, 51, 0.0282725), 0px 1.05156px 3.59743px rgba(51, 51, 51, 0.0196802);
+
+    .project-col {
+        flex: 50%;
+        width: 50%;
+    }
+
+    .project-desc {
+        padding: 0 48px;
+    }
+    .project-desc p{
+        margin-top: 24px;
+    }
+
+    .project-img {
+        min-height: 480px;
+        background-color: #F2F2F2;
+        border-radius: 50px;
+    }
+
+    #project2 .project-img {
+        order: 2;
     }
     /* End of Projects */
 
