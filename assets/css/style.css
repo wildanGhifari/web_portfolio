@@ -130,8 +130,6 @@ background: #fdc302;
 
 .navbar-nav a {
     margin-top: 16px;
-}
-.navbar-nav a:hover {
     font-weight: 600;
 }
 /* End of Navbar */
