@@ -282,14 +282,12 @@ background: #fdc302;
 /* End of Why Hire Me */
 
 /* Skill & Tool */
-.skill-img {
-    background-image: url(../img/skill&tool.png);
-    background-position: center;
-    background-position-x: -20px;
-    background-size:contain;
-    background-repeat: no-repeat;
-    height: 360px;
+#skillsAndTools img {
     width: 100%;
+}
+
+#skillsAndTools p {
+    margin-bottom: 8px;
 }
 /* End of Skill & Tool */
 
@@ -490,12 +488,6 @@ footer {
         width: 100%;
     }
     /* End of Why Hire Me */
-
-    /* Skill & Tool */
-    .skill-img {
-        height: 100%;
-    }
-/* End of Skill & Tool */
     
     /* Footer */
     footer {
